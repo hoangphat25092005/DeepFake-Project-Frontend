@@ -7,3 +7,5 @@ const Aboutus = () => (
         </section>
     </>
 );
+
+export default Aboutus;

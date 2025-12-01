@@ -1,34 +1,5 @@
 const Home = () => (
   <>
-    {/* Phần Header */}
-    <header className="bg-[#16145C] text-[#F8FAFC] shadow-md h-[77px]">
-      <div className="max-w-[1920px] w-full mx-auto grid grid-cols-3 items-center h-full px-10">
-        {/* TênProject */}
-        <div className="justify-self-start">
-          <h1 className="text-xl font-semibold">DeepVision</h1>
-        </div>
-
-        {/* Thanh trang */}
-        <nav className="justify-self-center ">
-          <ul className="flex gap-6">
-            {["Home", "Detection Lab", "About Us"].map((item, idx) => (
-              <li key={idx}>
-                <a href="/" className="hover:text-[#0c5d8f] transition-colors">
-                  {item}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </nav>
-
-        {/* Login */}
-        <div className="justify-self-end">
-          <button className="bg-[#2C27DB] text-[#F8FAFC] font-normal px-4 py-2 rounded-[20px] hover:bg-yellow-500 transition-colors text-[14px] font-dm-sans">
-            Login
-          </button>
-        </div>
-      </div>
-    </header>
     
     {/* Hero Section */}
 
