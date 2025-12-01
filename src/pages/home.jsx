@@ -1,4 +1,4 @@
-const Header = () => (
+const Home = () => (
   <>
     {/* Phần Header */}
     <header className="bg-[#16145C] text-[#F8FAFC] shadow-md h-[77px]">
@@ -85,4 +85,4 @@ const Header = () => (
   </>
 );
 
-export default Header;
+export default Home;
