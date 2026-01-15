@@ -7,6 +7,7 @@
     --surface-light: #334155; /* Slate-700 - Viền/Scrollbar */
     --text-primary: #f8fafc; /* Slate-50 - Màu chữ trắng */
     --text-secondary: #94a3b8; /* Slate-400 - Màu chữ phụ cho link inactive */
+    font-family: 'Inter', sans-serif; /* Font chữ hiện đại, khoa học */
 }
 
 /* Typography */
