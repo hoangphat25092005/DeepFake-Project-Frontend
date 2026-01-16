@@ -92,6 +92,11 @@ const Detection = () => {
                   
                   {selectedFile ? (
                     <>
+                      <img
+                        src={URL.createObjectURL(selectedFile)}
+                        alt="Uploaded preview"
+                        className="w-full max-h-[300px] object-contain rounded-lg mb-4"
+                      />
                       <div className="text-green-400 text-2xl mb-2">✓</div>
                       <p className="text-green-400 font-semibold mb-1">
                         File Selected: {selectedFile.name}
